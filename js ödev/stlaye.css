@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center center;
+    place-items: center center;
+}
+form{
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 100vh;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: flex;
+    flex: 0 0 2rem;
+    width: 20rem;
+}
